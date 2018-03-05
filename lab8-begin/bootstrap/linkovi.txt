@@ -1,0 +1,9 @@
+https://getbootstrap.com/docs/3.3/
+https://getbootstrap.com/docs/3.3/components/
+https://getbootstrap.com/docs/3.3/css/
+https://getbootstrap.com/docs/3.3/examples/theme/
+
+https://getbootstrap.com/docs/3.3/css/#grid-options
+
+besplatne teme:
+https://startbootstrap.com/
