@@ -1,4 +1,7 @@
 https://getbootstrap.com/docs/3.3/
+http://getbootstrap.com/docs/3.3/getting-started/#download
+http://getbootstrap.com/docs/3.3/getting-started/#template
+
 https://getbootstrap.com/docs/3.3/components/
 https://getbootstrap.com/docs/3.3/css/
 https://getbootstrap.com/docs/3.3/examples/theme/
