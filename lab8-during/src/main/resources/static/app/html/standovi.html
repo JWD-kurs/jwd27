@@ -1,0 +1,32 @@
+<div ng-controller="standoviCtrl">
+	<h1>Standovi</h1>
+		
+	<form>
+		<label>Zakupac</label>
+		<input ng-model="noviStand.zakupac"/>
+		<label>Povrsina</label>
+		<input ng-model="noviStand.povrsina"/>
+		<label>Sajam</label>
+		<select ng-model="noviStand.sajamId" ng-change="changeHappened()">
+			<option ng-repeat="sa in sajmovi" value="{{sa.id}}">{{sa.naziv}}</option>
+		</select>
+		<button ng-click="add()">Dodaj</button>
+	</form>
+	
+	<table>
+		<thead>
+			<tr>
+				<th>Zakupac</th>
+				<th>Povrsina</th>
+				<th>Sajam</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="st in standovi">
+				<td>{{st.zakupac}}</td>
+				<td>{{st.povrsina}}</td>
+				<td>{{st.sajamNaziv}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
