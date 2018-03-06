@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<script src="./assets/js/angular.js"></script>
+		<script src="./assets/js/angular-route.js"></script>
+		<script src="./app/js/main.js"></script>
+		
+		<link href="./assets/css/bootstrap.css" rel="stylesheet"></link>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="./#!/">JWD</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li><a href="./#!/activities">Activities</a></li>
+						<li><a href="./#!/standovi">Standovi</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div ng-app="wafepa" class="container">
+			<div ng-view>
+
+			</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="./assets/js/bootstrap.js"></script>
+	</body>
+</html>
