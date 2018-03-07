@@ -1,0 +1,24 @@
+<div ng-controller="activitiesCtrl">
+	<h1>Activities</h1>
+	<button class="btn btn-success" ng-click="goToAdd()"><span class="glyphicon glyphicon-heart"></span></button>
+	<br/>
+	
+	<div class="row">
+		<div class="col-lg-6 col-md-7 col-sm-8 col-xs-12">
+			<table class="table table-bordered table-striped" border="1">
+				<thead>
+					<tr>
+						<th>Name</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="a in activites">
+						<td>{{a.name}}</td>
+						<td><button class="btn btn-warning" ng-click="goToEdit(a.id)"><span class="glyphicon glyphicon-pencil"></span></button></td>
+						<td><button class="btn btn-danger" ng-click="delete(a.id)"><span class="glyphicon glyphicon-remove"></span></button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

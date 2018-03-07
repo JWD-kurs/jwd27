@@ -1,0 +1,14 @@
+<div ng-controller="addActivityCtrl">
+	
+	<div class="page-header">
+		<h3>Add activity</h3>
+	</div>
+	
+	<form class="form-inline">
+		<div class="form-group">
+			<label for="name" >Name</label>
+			<input class="form-control" id="name" ng-model="newActivity.name"/>
+		</div>
+		<button class="btn btn-primary" ng-click="add()">Add</button>
+	</form>
+</div>
